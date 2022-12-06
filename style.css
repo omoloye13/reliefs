@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.navbar {
+    overflow: hidden;
+    /* color: #1a252e; */
+    background-color:rgb(65,88,208)  ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    height: 90px;
+  }
+  .video-container{
+    height: 102vh;
+  }
+#homeVideo{
+    width: 100%;  
+    /* height: 100vh; */
+}
+.vid-caption{
+    top: 48%;
+    position:absolute;
+    z-index: 2;
+    left: 32%;
+}
+.vid-caption  a{
+    color:#40adef ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center; 
+}
+.vid-caption h1 a:hover{
+    color: #444;
+}
+.problems_section{
+    height: 100vh;
+    background-color: #40adef;
+}
+.header{
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 1.5em;
+}
+.africa_appeal{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
+.column-right{
+    width: 40%;
+    background-color: #fff;
+    padding: 2.5em;
+    height: 60vh;
+    font-weight: 300;
+    font-size: 17px;
+}
+.column-right a{
+    text-decoration: none;
+    color: #40adef;
+}
+.column-left{
+    width: 40%; 
+}
+.column-left img{
+    width: 100%; 
+    height: 60vh;
+
+}
+/* NEWS SECTION STYLES */
+.news_header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 1em;
+    color: #444;
+    font-family: geo-stancila-sb;
+
+}
+.news-section{
+    height: 142vh;
+    background-color: #fff;
+    /* border: solid red; */
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card-img img{
+    /* border: solid blue; */
+    width: 100%;
+    height: 35vh;
+    /* border: solid green; */
+}
+.card-img img:hover{
+    background-color: transparent;
+}
+.row-cards_one{
+    width: 27%;
+    height: 60vh;
+    background-color: #fc8a39;
+    margin: 1em;
+}
+.row-cards_one a{
+    text-decoration: none;
+}
+.card-text p{
+    color: #fff;
+    padding: 0.5em;
+    font-weight: 400;
+    font-size: 1.2em;
+    /* background-color: #fc8a39; */
+}
+.row-cards_two{
+    width: 27%;
+    height: 60vh;
+    background-color: #0ac8af;
+    margin: 1em;
+}
+.row-cards_two a{
+    text-decoration: none;
+}
+.row-cards_three{
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #ffb736;
+
+}
+.row-cards_three a{
+    text-decoration: none;
+}
+.row-cards_four{
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #9d5dfc;
+}
+.row-cards_four a{
+    text-decoration: none;
+}
+.row-cards_five{
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #ed6065;
+}
+.row-cards_five a{
+    text-decoration: none;
+}
+/* ZAKAT STYLES */
+.section_donation{
+    height: 142vh;
+    background-color: #0693e3;
+}
+.zakat_row{
+    display: flex;
+    justify-content: center;
+    padding: 0em;
+    margin-top: 0em;
+    padding-top: 2em;
+}
+.box-link:hover{
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+.box-wrap{
+    /* width: 28.5%;
+    height: 60vh;
+    margin: 1em; */
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #ed6065;
+    
+}
+.box-wrap-two{
+    /* width: 28.5%;
+    height: 60vh;
+    margin: 1em; */
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #fc8a39;
+}
+.box-wrap-three{
+    /* width: 28.5%;
+    height: 60vh;
+    margin: 1em; */
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #0ac8af;
+}
+.box-text{
+    margin-top: 1em;
+}
+.box-text p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
+}
+.box-link{
+    background-color: rgba(0,0,0,0.4);
+    padding: 0.5em;
+    height: 7vh;
+    width: 12em;
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+}
+.box-link a{
+    color: #fff;
+    text-decoration: none;
+    padding: 2em;
+}
+/* REPORT STYLES */
+.report_row{
+    display: flex;
+    justify-content: center;
+    padding: 0em;
+}
+.report-wrap{
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #ed6065;  
+}
+.report-wrap-two{
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    background-color: #fc8a39;
+}
+.report-wrap-three{
+    width: 27%;
+    height: 60vh;
+    margin: 1em;
+    /* background-color: #0ac8af; */
+    background-color: #9d5dfc;
+}
+.card-img_{
+    width: 60%;
+    height: 14vh;
+    margin: auto;
+}
+.report-wrap h4{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+.box_text{
+    text-align: center;
+    color: #fff;
+}
+.box_text p{
+    font-weight: 300;
+    font-size: 1em;
+    padding: 1em;
+}
+
+/* WORK SECTION STYLES */
+.work_section{
+    background-color: #495661;
+    height: 50vh;
+}
+.work_container h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: geo-stancila-sb;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 1.2em;
+}
+/* FOOTER STYLES */
+.footer_section{
+    background-color: #1a252e;
+    height: 80vh;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2em;
+}
+.footer ul{
+    list-style: none;
+}
+.footer h6{
+    font-family: 'geo-sb';
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.footer li{
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0.5em;
+}
+.footer-col{
+    padding-top: 3em;
+}
+.media{
+    display: flex;
+}
+.media-left{
+    padding-right: 1em;
+}
+.media-body{
+    color: #fff;
+}
+.fa-home{
+    color: #fff;
+}
+.fa-envelope{
+    color: #fff;
+}
+.fa-phone{
+    color: #fff;
+}
+.lists{
+    display: flex;
+    
+}
+.lists li{
+    border: none;
+}
+.connect{
+    margin-top: 4em;
+}
+/* Final section */
+.final{
+    background-color: #263039;
+    height: 30vh;
+}
+.final_container{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0.8em;
+}
+.nav-lists{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-left: 2em; */
+}
+/* form{
+    display: flex;
+    justify-content: space-around;
+} */
+.nav-lists h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.donation_type{
+    color: #fff;
+    width: 12em;
+    height: 8vh;
+    background-color: rgb(65,88,208);
+    border: solid #fff 1px;
+    outline-color: #fff ;
+    /* box-shadow: #fff; */
+}
+
+.amount{
+    color: #fff;
+    width: 10em;
+    height: 8vh;
+    background-color: rgb(65,88,208);
+    border: solid #fff 1px;
+    outline-color: #fff ;  
+}
+.amount::placeholder{
+    color: #fff;
+    padding-left: 1em;
+}
+#select{
+    color: #fff;
+    width: 20em;
+    height: 8vh;
+    background-color: rgb(65,88,208);
+    border: solid #fff 1px;
+    outline-color: #fff;
+}
+.nav-lists button{
+    background-color: #ff0000;
+    border: solid #ff0000;
+    height: 6vh;
+    width: 12em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2em ;
+    cursor: pointer;
+}
+.nav-lists button:hover{
+    background-color: #cf2e2e;
+}
+/* .option{
+    font-size: 1.5em;
+    font-weight: 200;
+} */
